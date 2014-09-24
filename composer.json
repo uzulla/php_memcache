@@ -1,0 +1,25 @@
+{
+    "name": "uzulla/memcache",
+    "description": "sample",
+    "keywords": ["memcache"],
+    "type": "library",
+    "homepage": "http://github.com/uzulla/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junichi Ishida aka uzulla",
+            "email": "uzulla@himitsukichi.com",
+            "homepage": "http://twitter.com/uzulla/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Uzulla\\Memcache": "lib/"
+        }
+    }
+}
